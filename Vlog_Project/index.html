@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Naveen - Perosonal Blog Website</title>
+  <meta name="title" content="Naveen - Perosonal Blog Website">
+  <meta name="description" content="This is a blog html template made by Naveen kumar G B">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/pattern-2.svg">
+  <link rel="preload" as="image" href="./assets/images/pattern-3.svg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/th.jpg" width="50" height="15" alt="Naveen logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo">
+            <img src="./assets/images/th.jpg" width="50" height="15" alt="Naveen logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link hover-1" data-nav-toggler>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link hover-1" data-nav-toggler>About</a>
+          </li>
+
+          <li>
+            <a href="#projects" class="navbar-link hover-1" data-nav-toggler>Projects</a>
+          </li>
+
+          <li>
+            <a href="#recent" class="navbar-link hover-1" data-nav-toggler>Recent Post</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link hover-1" data-nav-toggler>Contact</a>
+          </li>
+
+        </ul>
+
+        <div class="navbar-bottom">
+
+         
+        </div>
+
+        <p class="copyright-text">
+          Copyright 2023 © Naveen - Personal Blog Template.
+          Developed by Naveen Kumar G B
+        </p>
+
+      </nav>
+
+      <a href="#" class="btn btn-primary">Subscribe</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <p class="hero-subtitle"><h3>Hello There!</h3></p>
+
+            <h1 class="headline headline-1 section-title">
+              I’m <span class="span">Naveen kumar</span>
+            </h1>
+
+            <p class="hero-text">
+              <h3> Front End Web Developer</h3>
+            </p>
+
+            <div class="input-wrapper">
+
+              <input type="email" name="email_address" placeholder="Type your email address" required
+                class="input-field" autocomplete="off">
+
+              <button class="btn btn-primary">
+                <span class="span">Subscribe</span>
+
+                <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+              </button>
+
+            </div>
+
+          </div>
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.png" width="327" height="490" alt="Wren Clark" class="w-100">
+
+            <img src="./assets/images/pattern-2.svg" width="27" height="26" alt="shape" class="shape shape-1">
+
+            <img src="./assets/images/pattern-3.svg" width="27" height="26" alt="shape" class="shape shape-2">
+
+          </div>
+
+          <img src="./assets/images/shadow-1.svg" width="500" height="800" alt="" class="hero-bg hero-bg-1">
+
+          <img src="./assets/images/shadow-2.svg" width="500" height="500" alt="" class="hero-bg hero-bg-2">
+
+        </div>
+      </section>
+
+
+
+
+<br>
+      <!-- 
+        - #TOPICS
+      -->
+
+      <section class="topics" id="topics" aria-labelledby="topic-label">
+        <div class="container">
+
+          <div class="card topic-card">
+
+            <div class="card-content">
+
+              <h2 class="headline headline-2 section-title card-title" id="topic-label">
+                SKILLS
+              </h2>
+
+              <p class="card-text">
+                Here are the abilities I possess and the projects I have created using them...
+              </p>
+
+              <div class="btn-group">
+                <button class="btn-icon" aria-label="previous" data-slider-prev>
+                  <ion-icon name="arrow-back" aria-hidden="true"></ion-icon>
+                </button>
+
+                <button class="btn-icon" aria-label="next" data-slider-next>
+                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+
+            </div>
+
+            <div class="slider" data-slider>
+              <ul class="slider-list" data-slider-container>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic-11.png" width="507" height="618" loading="lazy" alt="Sport"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">HTML</span>
+
+                      <p class="slider-subtitle">31 Projects</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic22.jpg" width="507" height="618" loading="lazy" alt="Travel"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">CSS</span>
+
+                      <p class="slider-subtitle">38 Projects</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic33.jpg" width="507" height="618" loading="lazy" alt="Design"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">JAVASCRIPT</span>
+
+                      <p class="slider-subtitle">28 Projects</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic44.jpg" width="507" height="618" loading="lazy" alt="Movie"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">ReactJS</span>
+
+                      <p class="slider-subtitle">25 Projects</p>
+                    </div>
+
+                  </a>
+                </li>
+
+                <li class="slider-item">
+                  <a href="#" class="slider-card">
+
+                    <figure class="slider-banner img-holder" style="--width: 507; --height: 618;">
+                      <img src="./assets/images/topic55.jpg" width="507" height="618" loading="lazy" alt="Lifestyle"
+                        class="img-cover">
+                    </figure>
+
+                    <div class="slider-content">
+                      <span class="slider-title">JAVA</span>
+
+                      <p class="slider-subtitle">20 Projects</p>
+                    </div>
+
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURED POST
+      -->
+
+      <section class="section feature" aria-label="feature" id="featured">
+        <div class="container">
+
+          <h2 class="headline headline-2 section-title">
+            <span class="span">Projects I have done...</span>
+          </h2>
+
+          <p class="section-text">
+            Using HTML, CSS, JAVASCRIPT
+          </p>
+
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/F4.png" width="1602" height="903" loading="lazy"
+                    alt="  IMAGE CAROUSEL" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-wrapper">
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      <u>  1.IMAGE CAROUSEL</u>
+                    </a>
+                    
+                    <div>
+                    <p><h5>It's an applicatiion where images move forward or backword with respect of time</h5></p> 
+                  </div>
+
+                  </h3>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+
+
+            <li>
+              <div class="card feature-card">
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/F1.png" width="1602" height="903" loading="lazy"
+                    alt="  Movie Ticket Booking Application" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      <u> 2.Movie Ticket Booking Application</u>
+                    </a>
+                    
+                    <div>
+                    <p><h5>It’s an applicatiion that allows you to view the movies that are available, reserve those that you want, and check out user reviews</h5></p> 
+                  </div>
+
+                  </h3>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <br>
+            <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/F3.png" width="1602" height="903" loading="lazy"
+                    alt="Password Generator" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      <u> 3.Password Generator</u>
+                    </a>
+                    
+                  <div> <p> <h5>
+                        A tool that generates Password of N characters is available and how much length you want
+                      </h5>
+                    </p> 
+                  </div>
+                  </h3>
+
+                </div>
+               </div>
+              </div>
+
+            </li>
+
+<br>
+              <li>
+              <div class="card feature-card">
+
+                <figure class="card-banner img-holder" style="--width: 1602; --height: 903;">
+                  <img src="./assets/images/F2.png" width="1602" height="903" loading="lazy"
+                    alt="Quiz applicatiion" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="headline headline-3">
+                    <a href="#" class="card-title hover-2">
+                      <u> 4.Quiz applicatiion</u>
+                    </a>
+                    
+                  <div>
+                    <p>
+                      <h5>
+                        Program that allows you to create an unlimited number of multiple-choice questions
+                      </h5>
+                    </p> 
+                  </div>
+
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+                
+          </ul>
+
+          <a href="#" class="btn btn-secondary">
+            <span class="span">Show More Posts</span>
+
+            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+
+        <img src="./assets/images/shadow-3.svg" width="500" height="1500" loading="lazy" alt="" class="feature-bg">
+
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #RECENT POST
+      -->
+
+      <section class="section recent-post" id="recent" aria-labelledby="recent-label">
+        <div class="container">
+
+          <div class="post-main">
+
+            <h2 class="headline headline-2 section-title">
+              <span class="span">PROJETS ON JAVA</span>
+            </h2>
+
+            <p class="section-text">
+              Using java 
+            </p>
+
+            <ul class="grid-list">
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/E.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2"><u>E-COMMERECE WEB APPLICATION</u></a>
+                    </h3>
+
+                    <p class="card-text">
+                      <h4>An e-commerce web application is a platform that allows businesses to sell their products or services online. 
+                        It typically includes a website with a shopping cart,
+                         payment processing, and order management system.
+                          Customers can browse products, add them to their cart,
+                           and make a purchase through the platform.</h4>
+                    </p>
+
+
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="recent-post-card">
+
+                  <figure class="card-banner img-holder" style="--width: 271; --height: 258;">
+                    <img src="./assets/images/B1.jpg" width="271" height="258" loading="lazy"
+                      alt="Helpful Tips for Working from Home as a Freelancer" class="img-cover">
+                  </figure>
+
+                  <div class="card-content">
+
+          
+
+                    <h3 class="headline headline-3 card-title">
+                      <a href="#" class="link hover-2"><u>BANKING MANAGEMENT SYSTEM</u></a>
+                    </h3>
+
+                    <p class="card-text">
+                      <h4>A banking management system is a software application designed to manage the day-to-day operations of a bank or financial institution.
+                         It can handle a wide range of activities,
+                          such as customer account management, 
+                          transaction processing, loan management, and reporting.</h4>
+                    </p>
+
+        
+                    </div>
+
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+          </div>
+
+<br>
+           
+            
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer>
+    <div class="container">
+
+      <div class="card footer">
+
+        <div class="section footer-top">
+
+          <div class="footer-brand">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/th.jpg" width="55" height="18" loading="lazy" alt="Wren logo">
+            </a>
+
+            <p class="footer-text">
+              You can find my address and phone number right here.
+            </p>
+
+            <p class="footer-list-title">Address</p>
+
+            <address class="footer-text address">
+              #023 <br>
+              Yarthiganahalli <br>
+              Devanahalli Taluk <br>
+              Banglore-562104
+            </address>
+
+          </div>
+
+        
+
+          <div class="footer-list">
+
+            <p class="footer-text">
+              Sign up for the latest updates and projects details.
+            </p>
+
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your name" required class="input-field" autocomplete="off">
+
+              <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <div class="input-wrapper">
+              <input type="email" name="email_address" placeholder="Emaill address" required class="input-field"
+                autocomplete="off">
+
+              <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+            </div>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+          <p class="copyright">
+            &copy; Developed by <a href="#" class="copyright-link">Naveen.</a>
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+
+                <span class="span">Twitter</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+
+                <span class="span">LinkedIn</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+
+                <span class="span">Instagram</span>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up-outline" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
