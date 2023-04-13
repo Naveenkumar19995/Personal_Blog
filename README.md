@@ -1,15 +1,14 @@
 # Personal_Blog
-# SwagIndia
 
-# project-documentation
+
 
 <p align="center">
   <a href="" rel="noopener">
- <img width=500px height=200px src="swag.png" alt="Project logo"></a>
+ <img width=500px height=200px src="Home_page.png" alt="Project logo"></a>
 </p>
 
 
-<h3 align="center">Swag India</h3>
+<h3 align="center">Personal_Blog</h3>
 
 ---
 
